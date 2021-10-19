@@ -1,85 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color:#fff;
+body {
+  background-color: #fff;
 }
-header{
-    text-align: center;
-    margin-top: 10px ;
+header {
+  text-align: center;
+  margin-top: 10px;
 }
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 1px 1px 2px 2px #e3e3e3;
-    width: 400px;
-    margin: 0 auto;
-    height: 400px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 2px 2px #e3e3e3;
+  width: 400px;
+  margin: 0 auto;
+  height: 400px;
+  margin-top: 10px;
 }
-form input{
-    padding:10px 40px;
-    border: none;
-    border-bottom: 1px solid #e3e3e3;
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    outline: none;
+form input {
+  padding: 10px 40px;
+  border: none;
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  outline: none;
 }
 
-form div{
-    margin-top: 10px;
-    font-weight: 900;
+form div {
+  margin-top: 10px;
+  font-weight: 900;
 }
-form button{
-    padding:10px 150px;
-    border: none;
-    background:  #797878;
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    color: #e3e3e3;
-    margin-top: 20px;
-    border-radius:4px;
+form button {
+  padding: 10px 150px;
+  border: none;
+  background: #797878;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  color: #e3e3e3;
+  margin-top: 20px;
+  border-radius: 4px;
 }
-form p{
-    padding: 10px;
+form p {
+  padding: 10px;
 }
-form p a{
-    text-decoration: none;
-    font-weight: 900;
+form p a {
+  text-decoration: none;
+  font-weight: 900;
 }
-main form select option{
- font-weight: 900;
- font-size: 20px;
- text-align: center;
- background-color:#e3e3e3 ;
+main form select option {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  background-color: #e3e3e3;
 }
 main h4 {
-   text-align: center;
-   margin-top: 9px;
- 
+  text-align: center;
+  margin-top: 12px;
 }
-main h4 a{
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 30px;
-    color:#968f8f
+main h4 a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  color: #968f8f;
 }
-@media screen and (max-width:767px){
-    body{
-        width: 100%;
-    }
-    form{
-        width: 320px;
-    }
-    form input{
-         padding:10px 10px;
-    }
-    form button{
-           padding:10px 130px;
-    };
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  form {
+    width: 320px;
+  }
+  form input {
+    padding: 10px 10px;
+  }
+  form button {
+    padding: 10px 130px;
+  }
 }

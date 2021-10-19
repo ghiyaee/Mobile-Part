@@ -12,7 +12,7 @@ body {
 }
 header {
 }
-.logo a{
+.logo a {
   text-decoration: none;
 }
 .row {
@@ -27,7 +27,7 @@ header {
   grid-column: 4/10;
 }
 .col3 {
-  grid-column: 10/13;
+  grid-column: 11/13;
 }
 .col2 #input {
   width: 600px;
@@ -43,7 +43,6 @@ header {
 .regs {
   margin-top: 30px;
   display: flex;
-  justify-content: space-around;
 }
 .regs a {
   text-decoration: none;
@@ -322,13 +321,16 @@ footer p {
   body {
     width: 100%;
   }
+  .navbar {
+    display: none;
+  }
   #menu {
     display: block;
     padding: 10px;
     font-size: 30px;
     color: rgb(36, 190, 190);
-    cursor: pointer;
   }
+  
   .row {
     gap: 10px;
   }
@@ -340,7 +342,7 @@ footer p {
     margin-right: 2px;
   }
   .col3 {
-    grid-column: 7 /13;
+    grid-column: 8/13;
   }
   .col2 #input {
     width: 180px;
@@ -353,17 +355,36 @@ footer p {
     font-weight: 900;
   }
 
- .users{
-margin-top: 5px;
- }
+  .users {
+    margin-top: 5px;
+  }
+  .users i {
+    display: none;
+  }
   .buying {
     margin-top: 15px;
     font-weight: 900;
     font-size: 15px;
   }
-  nav {
-    display: none;
-  }
+.items .sub-items li {
+   display: none ;
+}
+.items .sub-items-1 li {
+ display: none;
+}
+.items .sub-items-2 li{
+display: none;
+}
+.items .sub-items-3 li {
+  display: none;
+}
+.items .sub-items-3-1{
+  display: none;
+}
+.items .sub-items-4 li{
+  display: none;
+
+}
   main div {
     display: flex;
     margin: 8px;
