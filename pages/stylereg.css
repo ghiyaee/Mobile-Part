@@ -69,3 +69,17 @@ main h4 a{
     font-size: 30px;
     color:#968f8f
 }
+@media screen and (max-width:767px){
+    body{
+        width: 100%;
+    }
+    form{
+        width: 320px;
+    }
+    form input{
+         padding:10px 10px;
+    }
+    form button{
+           padding:10px 130px;
+    };
+}

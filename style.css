@@ -7,8 +7,13 @@ body {
   direction: rtl;
   width: 100%;
 }
+#menu {
+  display: none;
+}
 header {
-  /* position: fixed; */
+}
+.logo a{
+  text-decoration: none;
 }
 .row {
   display: grid;
@@ -20,11 +25,9 @@ header {
 }
 .col2 {
   grid-column: 4/10;
-  /* background-color: blue; */
 }
 .col3 {
   grid-column: 10/13;
-  /* background-color: brown; */
 }
 .col2 #input {
   width: 600px;
@@ -52,6 +55,7 @@ header {
   border: 1px solid #eee;
   padding: 10px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 .buying {
   margin-top: 15px;
@@ -127,7 +131,6 @@ header {
   position: absolute;
   right: 430px;
   padding: 10px;
-  /* top: 48px; */
 }
 .items:hover > .sub-items-3 {
   display: block;
@@ -199,6 +202,7 @@ figure div {
 }
 figure div img {
   width: 50%;
+  margin-top: 6px;
 }
 
 .slid figure #img1,
@@ -312,4 +316,82 @@ footer i {
 }
 footer p {
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  #menu {
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(36, 190, 190);
+    cursor: pointer;
+  }
+  .row {
+    gap: 10px;
+  }
+  .col1 {
+    grid-column: 1/13;
+  }
+  .col2 {
+    grid-column: 1/7;
+    margin-right: 2px;
+  }
+  .col3 {
+    grid-column: 7 /13;
+  }
+  .col2 #input {
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #e4e2e4;
+    border: none;
+    outline: none;
+    margin-top: 35px;
+    font-weight: 900;
+  }
+
+ .users{
+margin-top: 5px;
+ }
+  .buying {
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  nav {
+    display: none;
+  }
+  main div {
+    display: flex;
+    margin: 8px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+  }
+  figure div {
+    display: flex;
+    flex-direction: row;
+  }
+  .cart1,
+  .cart2,
+  .cart3,
+  .cart4 {
+    margin: 6px;
+  }
+  figure div img {
+    margin-top: 6px;
+  }
+  footer {
+    padding: 0;
+  }
+  footer ul {
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 2px;
+  }
 }
