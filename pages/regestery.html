@@ -13,17 +13,17 @@
     </header>
     <main>
       <form action="">
-        <input type="text" placeholder="ایمیل / شماره موبایل" />
-        <input type="password" placeholder="رمز عبور" />
+        <input type="text" placeholder="ایمیل / شماره موبایل" name="user" />
+        <input type="password" placeholder="رمز عبور" name="pass" />
         <div>
           <label for="lbl">مرا به یاد داشته باش</label>
-          <input type="checkbox" name="" id="lbl" />
+          <input type="checkbox" name="" id="lbl" name="member" value="member" />
         </div>
         <div>
-          <label for="">کاربر</label>
-          <input type="radio" name="chk" />
-          <label for="">نمایندگی</label>
-          <input type="radio" name="chk" />
+          <label for="rdi">نمایندگی</label>
+          <input type="radio" name="chk" id="rdi" value="نمایندگی" />
+          <label for="rdio">کاربر</label>
+          <input type="radio" name="chk" id="rdio" value="کاربر" />
         </div>
 
         <button type="submit">ورود</button>
