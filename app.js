@@ -1,7 +1,7 @@
 const menu = document.querySelector("#menu");
 const nav = document.querySelector(".navbar");
 
-menu.addEventListener("click", navbar);
+// menu.addEventListener("click", navbar);
 
 let check = true;
 function navbar() {
